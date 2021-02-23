@@ -725,7 +725,7 @@ GMap.prototype.mRun = function(lat,long,tm = this.th) {
     this.map = new google.maps.Map(document.getElementById("map"), {
         zoom: 4,
         center: this.myLatLng,
-        styles:...this.tm,
+        styles:this.tm,
         fullscreenControl: true,
         zoomControl: true,
         streetViewControl: true
